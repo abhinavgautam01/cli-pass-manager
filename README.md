@@ -27,8 +27,8 @@ Install Rust if needed: https://rustup.rs
 ### 2. Clone and install globally
 
 ```bash
-git clone <YOUR_REPO_URL>
-cd <YOUR_REPO_DIR>
+git clone https://github.com/abhinavgautam01/cli-pass-manager.git
+cd cli-pass-manager
 ./scripts/setup.sh
 ```
 
@@ -44,7 +44,7 @@ source ~/.zshrc
 ### 3. Optional: install directly from GitHub (after publish)
 
 ```bash
-cargo install --git https://github.com/<your-user>/<your-repo> --bins --locked --force
+cargo install --git https://github.com/abhinavgautam01/cli-pass-manager --bins --locked --force
 ```
 
 ---
