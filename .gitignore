@@ -1,0 +1,22 @@
+/target
+
+# Local vault and secret artifacts
+*.json.enc
+*.json.enc.lock
+.freaky_history
+.freaky_banner_index
+
+# Environment files
+.env
+.env.*
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
